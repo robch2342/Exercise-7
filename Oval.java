@@ -21,4 +21,8 @@ public class Oval extends Shape {
     public void partyParty() {
         System.out.println("Party Party Party!!");
     }
+    
+    public void printaEnGrejj() {
+        System.out.println("hej hopp");
+    }
 }
