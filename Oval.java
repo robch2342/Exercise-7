@@ -12,10 +12,13 @@ public class Oval extends Shape {
     }
 
 
-
     @Override
     public void paint(Graphics g) {
         super.paint(g);
         g.fillOval(x, y, width, height);
+    }
+
+    public void partyParty() {
+        System.out.println("Party Party Party!!");
     }
 }
