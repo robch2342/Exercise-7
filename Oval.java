@@ -18,4 +18,8 @@ public class Oval extends Shape {
         super.paint(g);
         g.fillOval(x, y, width, height);
     }
+    
+    public void printaEnGrejj() {
+        System.out.println("hej hopp");
+    }
 }
